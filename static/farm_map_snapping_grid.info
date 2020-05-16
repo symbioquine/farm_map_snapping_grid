@@ -1,0 +1,5 @@
+name = Farm Map: Snapping Grid
+description = Snapping Grid Extension for farmOS maps.
+core = 7.x
+package = farmOS Contrib
+dependencies[] = farm_map

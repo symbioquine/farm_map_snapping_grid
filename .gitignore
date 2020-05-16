@@ -47,3 +47,9 @@
 /robots.txt
 /update.php
 /web.config
+
+.project
+.settings
+node_modules
+farm_map_snapping_grid.tar.gz
+build

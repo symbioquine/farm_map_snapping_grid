@@ -1,0 +1,30 @@
+{
+  "name": "farm_map_snapping_grid",
+  "version": "1.0.0",
+  "description": "Snapping grid extension for farmOS-map.",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/symbioquine/farm_map_snapping_grid.git"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "build": "npm run lint && webpack --config webpack.config.js --mode production"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "ol": "^6.3.1"
+  }
+}
